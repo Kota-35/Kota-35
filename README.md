@@ -16,3 +16,6 @@ Here are some ideas to get you started:
 -->
 
 ![](https://github-readme-stats.vercel.app/api/top-langs?username=Kota-35&show_icons=true&locale=en&layout=compact)
+
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kota-35&theme=2077)
