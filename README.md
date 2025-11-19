@@ -15,10 +15,10 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<p align="left">
+<!-- <p align="left">
   <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="output/metrics.base.svg" width="400" />
-    <source media="(prefers-color-scheme: light)" srcset="output/metrics.base.svg" width="400" />
+    <source media="(prefers-color-scheme: dark)"  srcset="output/metrics.svg" width="400" />
+    <source media="(prefers-color-scheme: light)" srcset="output/metrics.svg" width="400" />
     <img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/username/Kota-35/output-3d-contrib/day.svg" />
   </picture>
   <picture>
@@ -26,9 +26,9 @@ Here are some ideas to get you started:
     <source media="(prefers-color-scheme: light)" srcset="output/details.svg" width="400" />
     <img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/username/Kota-35/output-3d-contrib/day.svg" />
   </picture>
-</p>
+</p> -->
 
-<p align="left" >
+<p align="center" >
 	<picture>
 	  <source media="(prefers-color-scheme: dark)"  srcset="profile-3d-contrib/profile-night-rainbow.svg" width="700" />
 	  <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-season-animate.svg" width="700" />
@@ -36,12 +36,12 @@ Here are some ideas to get you started:
 	</picture>
 </p>　
 
-<p align="left">
+<!-- <p align="left">
   <picture>
     <source media="(prefers-color-scheme: light)"  srcset="output/metrics.plugin.achievements.compact.svg" width="400" />
     <source media="(prefers-color-scheme: dark)"  srcset="output/metrics.plugin.achievements.compact.svg" width="400" />
   <img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/username/Kota-35/output-3d-contrib/day.svg" />
   </picture>
-</p>
+</p> -->
 
 
