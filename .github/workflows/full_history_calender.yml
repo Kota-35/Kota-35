@@ -1,0 +1,30 @@
+# @see https://qiita.com/soranjiro/items/f34a81919b3cd2b5668e#%E4%B8%8A%E7%B4%9A%E7%B7%A8
+# @see https://github.com/lowlighter/metrics
+
+name: GitHub Metrics
+on:
+  # 毎日0時（UTC）に自動実行
+  schedule:
+    - cron: "0 0 * * *"
+  # 手動実行も可能にする
+  workflow_dispatch:
+  # mainブランチへのpushでも実行
+  push:
+    branches:
+      - main
+      
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Full history calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.calendar.full.svg
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          base: ""
+          plugin_calendar: yes
+          plugin_calendar_limit: 0
